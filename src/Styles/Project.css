@@ -1,0 +1,88 @@
+.project {
+  display: flex;
+}
+.promidpart {
+  width: 85vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #2f303a;
+  padding: 2vh;
+  padding-left: 2vw;
+}
+.topproj h1 {
+  color: white;
+}
+.projectsearch {
+  height: 15vh;
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+.projectsearch input {
+  width: 70%;
+  border-radius: 10px;
+}
+.allprojects {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.allprojects::-webkit-scrollbar {
+  display: none;
+}
+
+.eachproject {
+  height: 26vh;
+  color: white;
+
+  background-color: #202027;
+  width: 69vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+  border: 1px solid white;
+}
+.projdet {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projdet a {
+  color: white;
+}
+.projtitle {
+  font-size: 1.7em;
+}
+.projuser {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+.userpic {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+}
+.projbutt {
+  display: flex;
+  height: 30vh;
+  width: 10vw;
+  flex-direction: column;
+  align-items: center;
+}
+.projbutt button {
+  height: 5vh;
+  margin: auto;
+  width: 7vw;
+  border: 1px solid#02d5ff;
+  background-color: #2f303a;
+  color: white;
+  font-size: 1.2em;
+}

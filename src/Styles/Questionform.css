@@ -1,0 +1,78 @@
+.Addproject {
+  display: flex;
+}
+.midaddproj {
+  width: 68vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #2f303a;
+  padding: 2vh;
+}
+.addprojectsearch {
+  height: 15vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.addprojectsearch input {
+  width: 94%;
+  border-radius: 10px;
+}
+.projectform {
+  height: 76vh;
+  width: 56vw;
+  padding: 2vh;
+  background-color: #202027;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.otherendquest {
+  height: 100vh;
+  width: 20vw;
+  background-color: #202027;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.box2 {
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+.box2 span {
+  font-size: 1.4em;
+}
+.box1,
+.box3 {
+  display: flex;
+}
+.box1 svg,
+.box3 svg {
+  margin: auto;
+}
+.projectform input {
+  background-color: #2f303a;
+  width: 80%;
+  border-radius: 10px;
+}
+.submitform {
+  width: 100%;
+  display: flex;
+}
+.submitform button {
+  height: 6vh;
+  width: 8vw;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #88e1e1;
+  margin: auto;
+}

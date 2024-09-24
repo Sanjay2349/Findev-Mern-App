@@ -1,0 +1,113 @@
+.Comment {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.answermid {
+  display: flex;
+  padding-left: 16vw;
+  flex-direction: column;
+  height: 100%;
+  width: 84vw;
+  background-color: #2f303a;
+  overflow-y: scroll;
+  justify-content: space-around;
+}
+.answermid::-webkit-scrollbar {
+  display: none;
+}
+
+.side {
+  position: fixed;
+  top: 0%;
+}
+.answersearch {
+  height: 10vh;
+  display: flex;
+  padding: 4vh;
+  width: 90%;
+}
+.answersearch input {
+  width: 80%;
+  border-radius: 10px;
+}
+.answerquestion {
+  height: 28vh;
+  width: 70vw;
+  border-radius: 10px;
+  background-color: #3f3f44;
+  color: white;
+  font-size: 1.4em;
+}
+.answerpart {
+  margin-top: 2vh;
+  min-height: 58vh;
+  width: 70vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 33, 33);
+}
+.RichEditor-controls {
+  display: flex;
+  width: 69vw;
+  justify-content: space-around;
+  background-color: rgb(86, 167, 238);
+}
+.RichEditor-controls .RichEditor-activeButton {
+  display: flex;
+}
+.allthebest {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-height: 20vh;
+}
+
+.Eachcomment {
+  width: 98%;
+  color: white;
+  border: 1px solid rgb(22, 38, 39);
+  margin-bottom: 15vh;
+  border-radius: 10px;
+}
+.commentedit {
+  width: 69vw;
+  margin: 1vh;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 2vh;
+  z-index: 10;
+}
+.DraftEditor-editorContainer {
+  width: 69vw;
+}
+.DraftEditor-root {
+  min-height: 20vh;
+}
+.answerid {
+  height: 10vh;
+  width: 20vw;
+  color: white;
+}
+.commentedit .DraftEditor-root {
+  min-height: 50vh;
+}
+.submitcomment {
+  height: 5vh;
+  width: 7vw;
+  background-color: #3f3f44;
+  border: none;
+}
+.some {
+  display: flex;
+  flex-direction: column;
+}
+.some button {
+  margin-left: auto;
+  border-radius: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

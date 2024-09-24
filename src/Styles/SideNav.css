@@ -1,0 +1,59 @@
+.SideNavbar {
+  height: 100vh;
+  width: 12vw;
+  background-color: #80d1d2;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidetitle {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.sidetitle h1 {
+  margin: auto;
+  color: #000000;
+}
+.sidetitle span {
+  color: white;
+}
+.sidelinks {
+  height: 40%;
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eachsidelink {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+.eachsidelink .image {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.image svg {
+  margin: auto;
+}
+.sidebuttons {
+  height: 20%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eachbutton {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}

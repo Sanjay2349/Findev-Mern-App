@@ -1,0 +1,35 @@
+.Projectdetpage {
+  display: flex;
+}
+.contmid {
+  height: 100vh;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 88vw;
+  background-color: #191920;
+}
+.joinproject button {
+  height: 5vh;
+  width: 7vw;
+  border: none;
+  background-color: #aaafc8;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.midcontentp {
+  height: 60vh;
+  width: 50vw;
+  background-color: #34353b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1em;
+}

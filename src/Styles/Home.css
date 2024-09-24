@@ -1,0 +1,83 @@
+.midpart {
+  width: 84vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(235, 10%, 21%);
+  padding: 2vh;
+  padding-left: 4vw;
+  overflow: hidden;
+}
+.topquest {
+  margin-bottom: 2vh;
+}
+.searchquestion {
+  height: 11vh;
+  padding: 2vh;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.searchquestion input {
+  width: 60%;
+  border-radius: 10px;
+  font-size: 1.1em;
+}
+.searchquestion svg {
+  position: absolute;
+  top: 4.5vh;
+  transform: translate(-50%, -50%);
+  left: 49vw;
+}
+.Homie {
+  display: flex;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+.timespan {
+  height: 18vh;
+  padding: 2vh;
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.questionspace {
+  width: 100%;
+  min-height: 70vh;
+  overflow-y: scroll;
+  display: flex;
+  /* background-color: white; */
+  flex-direction: column;
+}
+.questionspace::-webkit-scrollbar {
+  display: none;
+}
+.spans {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20vh;
+}
+.alltimes {
+  display: flex;
+  width: 20vw;
+}
+.time {
+  min-width: 7vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  border: 1px solid white;
+}
+.addquest button {
+  font-family: "Poppins", sans-serif;
+  height: 7vh;
+  width: 9vw;
+  background-color: #88e1e1;
+  border: none;
+  border-radius: 10px;
+}

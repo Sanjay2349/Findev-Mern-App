@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  padding-left: 15px;
+}

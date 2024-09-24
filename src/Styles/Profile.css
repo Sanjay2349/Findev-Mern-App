@@ -1,0 +1,27 @@
+.Profile {
+  display: flex;
+}
+.midprofile {
+  width: 88vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #2f303a;
+  padding: 2vh;
+}
+.profileimg {
+  height: 40vh;
+  width: 85vw;
+  display: flex;
+}
+.profileimg svg {
+  margin: auto;
+}
+.profiledet {
+  height: 60vh;
+  width: 65vw;
+  margin: auto;
+  background-color: #58585c;
+  border-radius: 20px;
+}

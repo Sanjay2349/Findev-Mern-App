@@ -1,0 +1,87 @@
+.tagmidpart {
+  width: 85vw;
+  height: 96vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #2f303a;
+  padding: 2vh;
+  padding-left: 2vw;
+}
+.tagsearchquestion {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.tagsearchquestion input {
+  width: 70%;
+  border-radius: 10px;
+}
+.tags {
+  display: flex;
+}
+.tagspace {
+  height: 59vh;
+  width: 80%;
+  margin-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: scroll;
+}
+.tagspace::-webkit-scrollbar {
+  display: none;
+}
+.searchtag {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.tagsvg {
+  height: 5vh;
+  width: 3vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 5vh;
+  left: 15vw;
+}
+
+.Tagtitle {
+  color: white;
+  width: 70%;
+}
+.tagname {
+  font-size: 2em;
+}
+.searchtag input {
+  border-radius: 10px;
+  margin: 2vh;
+}
+.eachtag {
+  height: 30vh;
+  width: 20vw;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 1px 3px rgba(110, 250, 255, 0.15),
+    0 1px 2px rgba(144, 255, 253, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 1vh;
+  margin-bottom: 2vh;
+}
+.tagbutt {
+  height: 5vh;
+  width: 7vw;
+  border-radius: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  background-color: #88e1e1;
+}
+
+.eachtag p {
+  font-size: 0.9em;
+}
